@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SergeevaA_PR_31_OLIMP\SergeevaA_PR_31_zd_1\SergeevaA_PR_31_zd_1\SergeevaA_PR_31_zd_1.csproj" />
+    <ProjectReference Include="..\..\SergeevaA_PR_31_OLIMP\SergeevaA_PR_31_zd_4\SergeevaA_PR_31_zd_4\SergeevaA_PR_31_zd_4.csproj" />
+    <ProjectReference Include="..\..\SergeevaA_PR_31_zd_6\SergeevaA_PR_31_zd_6\SergeevaA_PR_31_zd_6.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="NUnit.Framework" />
+  </ItemGroup>
+
+</Project>
